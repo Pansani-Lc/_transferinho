@@ -6,7 +6,7 @@ def index(request):
     return render(
         request, 
         'sistema/sistema.html',
-        'sistema/apresentacao.html',
+        
         
     )
 
