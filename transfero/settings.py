@@ -20,13 +20,15 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles', 
-    'sistema',
+    'django.contrib.admin',              # Interface administrativa do Django
+    'django.contrib.auth',               # Sistema de autenticação de usuários
+    'django.contrib.contenttypes',       # Permite criar relacionamentos entre models
+    'django.contrib.sessions',           # Gerencia sessões (cookies)
+    'django.contrib.messages',           # Sistema de mensagens (feedback)
+    'django.contrib.staticfiles',        # Gerencia arquivos estáticos (CSS, JS, imagens)
+    'sistema',                           # App principal já existente no projeto
+    'filmes',                            # App criado para gerenciar filmes
+    'usuarios',                          # App criado para gerenciar usuários
 ]
 
 MIDDLEWARE = [
@@ -112,7 +114,11 @@ STATICFILES_DIRS = (
     BASE_DIR / 'base_static',
 )
 
-MEDIA_URL = 'media/' # É onde fica os arquivos que o usuario irá enviar.
+MEDIA_URL = 'media/' # É onde ficam o caminho  dos arquivos que o usuario irá enviar.
+MEDIA_ROOT = BASE_DIR / 'media' # um caminho onde os arquivos de midia serao salvos
+
+STATIC_URL = 'static/' # É   o endereço url inicial aonde estão os arquivos estáticos
+STATIC_ROOT = BASE_DIR / 'static' # É um caminho para onde os arquvos estáticos são coletados.
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
