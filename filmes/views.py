@@ -9,7 +9,7 @@ def cadastrarFilme(request) :
      form = FilmeForm(request.POST, request.FILES)
      if form.is_valid():
       form.save()
-      return redirect('listarfilmes')
+      return redirect('listar')
     else:
         form = FilmeForm()
 
@@ -32,7 +32,7 @@ def listarFilmes (request):
     
     return render (
         request, 
-        'filmes/listarfilmes.html',
+        'filmes/listar.html',
         context, 
     )
 

@@ -1,10 +1,48 @@
-<h1> Aqui vai ficar a parte do header </h1>
+<header class="navbar">
+    <div class="logo">StreamBots</div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Minha Lista</a></li>
+        </ul>
+    </nav>
+
+</header>
 
 <style>
-h1{ 
-    background-color: lightgreen;
-    text-align: center;
-    height: 75px;
-    padding: 20px 0;
-}
+    .navbar{
+        display: flex;                         /*Aqui alinha na horizontal */
+        justify-content: space-between;       /* alinhar o conteudo na horizontal*/
+        align-items: center;                /* alinha todos os itens */
+        background-color: #1a1a1d;      /*cor de fundo*/
+        position: sticky;                /* header aparecer no topo */
+        top: 0;                         /* coloca no topo */
+        z-index: 10; 
+        padding: 1rem 2rem;                   /* Garante que o elemento se sobressai em relção a outros elementos*/
+    }
+
+    .logo{
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #b00610;
+    }
+
+    .nav-links{
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .nav-links li a {
+        font-weight: 600;
+        color: #ccc;
+        text-decoration: none;
+    }
+    .nav-links li a:hover{
+        color: #fff;
+        
+    }
+
 </style>

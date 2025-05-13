@@ -1,5 +1,4 @@
 from django.contrib import admin
-
 from sistema import models
 
 # Aqui fica o registro do usuario

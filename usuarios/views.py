@@ -3,18 +3,12 @@ from  usuarios.forms import UsuarioForm
 
 # View para exibir o formulário de cadastro
 
-def cadastro(request) : 
-    return render(
-        request,                     # Requisição HTTP recebida
-        'cadastro.html'              # Template a ser renderizado
-    )
-
 # View para exibir o formulário de login
 
 def login(request):
     return render(
         request, 
-        'login.html'
+        'usuarios/login.html'
     )
 
 # Função reservada para implementar lógica de criação de usuário
@@ -30,7 +24,7 @@ def criarUsuario(request):
          # FILES: Arquivos enviados (como imagens)
         if form.is_valid():    # Verifica se os dados são válidos
             form.save()         # Salva o novo usuário no banco de dados
-            return redirect('/usuario/login')      # Redireciona para a tela de login após o cadastro
+            return redirect('usuario/login')      # Redireciona para a tela de login após o cadastro
         
     else:
          # Se a requisição for GET, ou seja, só para exibir a página
@@ -38,6 +32,6 @@ def criarUsuario(request):
 
     return render(
         request,              # Requisição recebida
-        'cadastro.html',       # Página HTML a ser exibida
+        'usuarios/cadastrar.html',       # Página HTML a ser exibida
         {'form': form}          # Envia o formulário para o template
     )
