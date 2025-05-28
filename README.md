@@ -2,7 +2,7 @@
 
 Este projeto é uma interface web para cadastro, visualização e organização de filmes e séries. Criado com foco na organização do código e clareza estrutural, a aplicação segue boas práticas de desenvolvimento utilizando Django no backend e HTML/CSS para a camada de apresentação.
 
-🧩 Funcionalidades
+🧩 FUNCIONALIDADES
 
 🏠 Página inicial com navegação entre seções (Home, Filmes, Séries, Minha Lista).
 🔍 Campo de busca para facilitar a navegação no catálogo.
