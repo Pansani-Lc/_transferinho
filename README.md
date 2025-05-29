@@ -29,17 +29,17 @@ Este projeto é uma interface web para cadastro, visualização e organização 
 ## 📸 Aqui estão algumas imagens da interface da plataforma.
 **Imagem da página incial**
 
-![Imagem inicial](Captura%20de%20tela%202025-05-29%20134219.png)
+![Imagem inicial](/Captura%20de%20tela%202025-05-29%20134219.png)
 
 
 
-**Imagem da página de login**
+**Imagem da página de login** 
+
 ![Imagem login](/Captura%20de%20tela%202025-05-29%20134333.png)
 
 
-**Imagem da página de cadastro**
+**Imagem da página de cadastro** 
 ![Imagem cadastro](/Captura%20de%20tela%202025-05-29%20134411.png)
-
 # Link StreamVibe 
 Você pode acessar o link da plataforma por esse link 
  <http://127.0.0.1:8000/>
