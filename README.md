@@ -28,7 +28,8 @@ Este projeto é uma interface web para cadastro, visualização e organização 
 
 ## 📸 Aqui estão algumas imagens da interface da plataforma.
 <h3>📌 Tela 1 – Página Inicial</h3>
-<img src="workspace/readme/imagens/home.png" alt="Página Inicial" width="400"/>
+
+![Uploading home.png…]()
 
 <h3>📌 Tela 2 – Catálogo de Login</h3>
 <img src="workspace/readme/imagens/login.png" alt="Tela de  Login" width="400"/>
