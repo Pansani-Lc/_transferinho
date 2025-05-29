@@ -27,19 +27,19 @@ Este projeto é uma interface web para cadastro, visualização e organização 
 
 
 ## 📸 Aqui estão algumas imagens da interface da plataforma.
-<h3>📌 Tela 1 – Página Inicial</h3>
+<h3>🏠 HOME – Página Inicial</h3>
 
 ![home](https://github.com/user-attachments/assets/aba2782b-e09c-40dd-b827-85951fceb69d)
 
 
 
 
-<h3>📌 Tela 2 – Catálogo de Login</h3>
+<h3> 🔑 LOGIN – Catálogo de Login</h3>
 
 ![login](https://github.com/user-attachments/assets/3d61ae4b-0b65-4d59-8ddb-9347b258a84f)
 
 
-<h3>📌 Tela 3 – Tela de Cadastro</h3>
+<h3> 🆕 CADASTRO – Tela de Cadastro</h3>
 
 ![cadastro](https://github.com/user-attachments/assets/55260ea9-49d5-46ff-911e-5494b784bbe9)
 
@@ -48,7 +48,7 @@ Você pode acessar o link da plataforma por esse link
  <http://127.0.0.1:8000/>
 
 
-### 🛠️ Tecnologias Utilizadas
+###  Tecnologias Utilizadas
 - Python
 - Django
 - HTML5
