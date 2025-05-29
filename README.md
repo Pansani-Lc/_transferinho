@@ -43,46 +43,6 @@ CSS3
 Template engine do Django (Django Templates)
 SVG (para ícones vetoriais)
 
-🚀 Como Executar o Projeto
-
-Clone este repositório:
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/streambox.git
-cd streambox
-Crie e ative um ambiente virtual:
-bash
-Copiar
-Editar
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-Instale as dependências:
-
-bash
-Copiar
-Editar
-pip install -r requirements.txt
-Execute as migrações:
-
-bash
-Copiar
-Editar
-python manage.py migrate
-Inicie o servidor:
-
-bash
-Copiar
-Editar
-python manage.py runserver
-Acesse o site:
-
-cpp
-Copiar
-Editar
-http://127.0.0.1:8000/
-
 📌 Organização do Código
 
 Este projeto está dividido de forma modular:
