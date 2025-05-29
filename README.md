@@ -29,13 +29,19 @@ Este projeto é uma interface web para cadastro, visualização e organização 
 ## 📸 Aqui estão algumas imagens da interface da plataforma.
 <h3>📌 Tela 1 – Página Inicial</h3>
 
-![Uploading home.png…]()
+![home](https://github.com/user-attachments/assets/aba2782b-e09c-40dd-b827-85951fceb69d)
+
+
+
 
 <h3>📌 Tela 2 – Catálogo de Login</h3>
-<img src="workspace/readme/imagens/login.png" alt="Tela de  Login" width="400"/>
+
+![login](https://github.com/user-attachments/assets/3d61ae4b-0b65-4d59-8ddb-9347b258a84f)
+
 
 <h3>📌 Tela 3 – Tela de Cadastro</h3>
-<img src="workspace/readme/imagens/cadastro.png" alt="Tela de Cadastro" width="400"/>
+
+![cadastro](https://github.com/user-attachments/assets/55260ea9-49d5-46ff-911e-5494b784bbe9)
 
 # Link StreamVibe 
 Você pode acessar o link da plataforma por esse link 
